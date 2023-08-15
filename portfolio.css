@@ -1,0 +1,13 @@
+.siva{
+animation-name: example;
+animation-duration: 100s;
+}
+@keyframes example{
+   0% {color: #fff;}
+    10%{color: aqua;}
+    50%{color:blue;}
+    100%{color:red;}
+}
+.siva:hover{
+    rotate: 100px;
+}
